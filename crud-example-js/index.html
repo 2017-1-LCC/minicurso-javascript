@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registro de pessoa</title>
+    </head>
+
+    <body>
+
+        <div>
+            <div>
+                <h1> Sistema para cadastro de alunos. </h1>
+            </div>
+    
+            <!-- form -->
+            <div>
+                <form id="formulario">
+                    <input type="text" id="nomeAluno">
+                    <input type="text" id="idadeAluno">
+                    <input type="text" id="matriculaAluno">
+                    <button type="submit" id="btnEnviar">Enviar</button>
+                    <button type="button" onClick="atualizar()" id="btnAlterar">Alterar</button>
+                    <button type="button" onClick="cancelar()" id="btnCancelar">Cancelar</button>
+                </form>
+            </div>
+
+            <!-- table -->
+            <div>
+                <div id= "boxTable"></div>
+            </div>
+        </div>
+
+        <script src="js/crud.js" charset="utf-8"></script>
+
+    </body>
+</html>
