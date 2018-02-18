@@ -95,9 +95,7 @@ function atualizar() {
 
 function cancelar() {
     
-    document.getElementById('nomeAluno').value = "";
-    document.getElementById('idadeAluno').value = "";
-    document.getElementById('matriculaAluno').value = "";
+    clearValuesForm();
 
     document.getElementById("btnAlterar").style.display = "none";
     document.getElementById("btnCancelar").style.display = "none";
