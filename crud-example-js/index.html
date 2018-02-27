@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="pt-br">
     <head>
-        <title> Registro de pessoa</title>
+        <title> Registro de pessoa </title>
+        <meta charset="utf-8">
     </head>
 
     <body>
@@ -14,15 +16,15 @@
             <!-- form -->
             <div>
                 <form id="formulario">
-                    <input type="text" id="nomeAluno">
-                    <input type="text" id="idadeAluno">
-                    <input type="text" id="matriculaAluno">
+                    <input type="text" id="nomeAluno" placeholder="Nome do aluno">
+                    <input type="text" id="idadeAluno" placeholder="Idade">
+                    <input type="text" id="matriculaAluno" placeholder="Número de matricula">
                     <button type="submit" id="btnEnviar">Enviar</button>
                     <button type="button" onClick="atualizar()" id="btnAlterar">Alterar</button>
                     <button type="button" onClick="cancelar()" id="btnCancelar">Cancelar</button>
                 </form>
             </div>
-
+            
             <!-- table -->
             <div>
                 <div id= "boxTable"></div>
