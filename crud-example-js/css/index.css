@@ -1,0 +1,16 @@
+body {    
+    font-family: sans-serif, Arial, serif;
+}
+
+table {
+    border: 1px solid #000;
+    border-collapse: collapse; 
+    width: 43.3%;
+    text-align: center;  
+    text-shadow: 1px 1px 3px black;
+    color: white;
+    font-size: 1em;
+}
+
+    table tr:nth-child(even) { background-color: #899a6c; } /* linhas pares */
+    table tr:nth-child(odd) { background-color: #a0b876; } /* linhas ímpares */

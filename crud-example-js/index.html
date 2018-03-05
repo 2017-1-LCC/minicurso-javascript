@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 
-<html lang="pt-br">
+<html lang= "pt-br">
     <head>
         <title> Registro de pessoa </title>
-        <meta charset="utf-8">
+        <meta charset= "utf-8">
     </head>
 
     <body>
@@ -14,11 +14,11 @@
             </div>
     
             <!-- form -->
-            <div>
+            <div id="container">
                 <form id="formulario">
                     <input type="text" id="nomeAluno" placeholder="Nome do aluno">
                     <input type="text" id="idadeAluno" placeholder="Idade">
-                    <input type="text" id="matriculaAluno" placeholder="Número de matricula">
+                    <input type="text" id="matriculaAluno" placeholder="Numero de matricula">
                     <button type="submit" id="btnEnviar">Enviar</button>
                     <button type="button" onClick="atualizar()" id="btnAlterar">Alterar</button>
                     <button type="button" onClick="cancelar()" id="btnCancelar">Cancelar</button>
@@ -26,12 +26,15 @@
             </div>
             
             <!-- table -->
-            <div>
-                <div id= "boxTable"></div>
+            <div>         
+                <br>                                    
+                <div id= "boxTable">                    
+                </div>
             </div>
         </div>
 
-        <script src="js/crud.js" charset="utf-8"></script>
+        <script src="crud.js" charset="utf-8"></script>
+        <link rel="stylesheet" href="index.css">
 
     </body>
 </html>

@@ -28,7 +28,7 @@ form.addEventListener('submit', function(e) {
 
 function listarTodos(rows) {
 
-    var html = "<table border='1|1'>";
+    var html = "<table border= '1 | 1'>";
 
     for (var i = 0; i < rows.length; i++) {
         
@@ -37,12 +37,11 @@ function listarTodos(rows) {
         html+="<td>"+rows[i].nome+"</td>";
         html+="<td>"+rows[i].idade+"</td>";
         html+="<td>"+rows[i].matricula+"</td>";
-        html+="<td onClick=remover("+i+")>"+"remover"+"</td>";
-        html+="<td onClick=alterar("+i+")>"+"editar"+"</td>";
+        html+="<td onClick=remover("+ i +")>"+"Remover"+"</td>";
+        html+="<td onClick=alterar("+ i +")>"+"Editar"+"</td>";
         
-        html+="</tr>";
-
-    }
+        html+= "</tr>";
+    }    
 
     html+="</table>";
 
@@ -63,7 +62,6 @@ function remover(posicao) {
     alunos.splice(posicao,1);
 
     listarTodos(alunos);
-
 }
 
 function alterar(posicao) {
