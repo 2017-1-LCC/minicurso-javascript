@@ -30,6 +30,11 @@ function listarTodos(rows) {
 
     var html = "<table border= '1 | 1'>";
 
+    html+= "<th>" + "ID" + "</th>";
+    html+= "<th>" + "NOME" + "</th>";
+    html+= "<th>" + "IDADE" + "</th>";
+    html+= "<th>" + "MATRICULA" + "</th>";
+
     for (var i = 0; i < rows.length; i++) {
         
         html+="<tr>";
