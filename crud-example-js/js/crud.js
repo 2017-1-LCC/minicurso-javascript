@@ -42,8 +42,8 @@ function listarTodos(rows) {
         html+="<td>"+rows[i].nome+"</td>";
         html+="<td>"+rows[i].idade+"</td>";
         html+="<td>"+rows[i].matricula+"</td>";
-        html+="<td onClick=remover("+ i +")>"+"Remover"+"</td>";
-        html+="<td onClick=alterar("+ i +")>"+"Editar"+"</td>";
+        html+="<td><button class='botaoJS' onClick=alterar("+ i +")>"+"<img src='icons/editar.png' title='Editar'"+"</button></td>";
+        html+="<td><button class='botaoJS' onClick=remover("+ i +")>"+"<img src='icons/remover.png' title='Remover'"+"</button></td>";
         
         html+= "</tr>";
     }    
@@ -51,7 +51,6 @@ function listarTodos(rows) {
     html+="</table>";
 
     document.getElementById("boxTable").innerHTML = html;
-
 }
 
 function clearValuesForm() {
@@ -59,12 +58,11 @@ function clearValuesForm() {
     document.getElementById('nomeAluno').value = "";
     document.getElementById('idadeAluno').value = "";
     document.getElementById('matriculaAluno').value = "";
-
 }
 
 function remover(posicao) {
 
-    alunos.splice(posicao,1);
+    alunos.splice(posicao, 1);
 
     listarTodos(alunos);
 }
@@ -100,8 +98,7 @@ function cancelar() {
     
     clearValuesForm();
 
-    document.getElementById("btnAlterar").style.display = "none";
-    document.getElementById("btnCancelar").style.display = "none";
+    document.getElementById("btnAlterar").style.display = "none";    
+    document.getElementById("btnCancelar").style.display = "none";    
     document.getElementById("btnEnviar").style.display = "block";
-
 }

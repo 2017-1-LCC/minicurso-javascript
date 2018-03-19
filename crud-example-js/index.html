@@ -1,40 +1,102 @@
 <!DOCTYPE html>
 
-<html lang= "pt-br">
+<html lang="pt-br">
     <head>
-        <title> Registro de pessoa </title>
-        <meta charset= "utf-8">
+        <title> Registro de pessoas </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
 
-        <header>
-                <h1> Sistema para cadastro de alunos. </h1>
-        </header>
+        <div class="header" id="cabeçalho">
+            <h1> Sistema para cadastro de alunos. </h1>
+            <img src="if.png" width="200" height="100"/>
+        </div>
 
-        <div>
+        <div class="menu" id="navbar">
+            <a class="scroll" href="#cabeçalho"> Home </a>
+            <a class="scroll" href="#team"> Equipe </a>
+            <a class="scroll" href="#git"> Github </a>
+            <a class="scroll" href="#about"> Sobre </a>
+            <a href="javascript:void(0);" class="icon" onClick="adicionaClasse()">&#9776;</a>
+        </div>
+
+        <div class="row home">
             <!-- form -->
-            <div id="container">
-                <form id="formulario">
+            <div class="col-12 col-t-12">
+                <form id="formulario" class="inputs">
                     <input type="text" id="nomeAluno" placeholder="Nome do aluno">
                     <input type="text" id="idadeAluno" placeholder="Idade">
                     <input type="text" id="matriculaAluno" placeholder="Numero de matricula">
-                    <button type="submit" id="btnEnviar">Enviar</button>
-                    <button type="button" onClick="atualizar()" id="btnAlterar">Alterar</button>
-                    <button type="button" onClick="cancelar()" id="btnCancelar">Cancelar</button>
+                    <button type="submit" id="btnEnviar" class="botao"><img src="icons/enviar.png" title="Enviar"></button>
+                    <button type="button" onClick="atualizar()" id="btnAlterar" class="botao"><img src="icons/ok.png" title="Confirmar"></button>
+                    <button type="button" onClick="cancelar()" id="btnCancelar" class="botao"><img src="icons/cancel.png" title="Cancelar"></button>
                 </form>
-            </div>
+            </div>           
             
             <!-- table -->
             <div>         
                 <br>                                    
-                <div id= "boxTable">                    
-                </div>
+                <div class="tabela" id="boxTable"></div>
             </div>
+        </div> <!-- fecha home -->
+
+        <div class="row equipe" id="team">
+            <div class="col-4 col-t-4">
+                <img src="imgs/1.png" alt="perfil1"/>
+                <h3> RANOOB </h3>
+                <div class="descricao"> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem in condimentum fermentum. Duis id nulla porta justo molestie auctor sed ac orci. Mauris sed dignissim quam. In fringilla ligula vel egestas cursus. Fusce in sapien eu velit eleifend varius. Aliquam sagittis rhoncus augue, nec pellentesque sem. Nunc ut vestibulum nibh, in elementum eros. </p> </div>
+            </div>
+
+            <div class="col-4 col-t-4">
+                <img src="imgs/2.png" alt="perfil2"/>
+                <h3> DAS VIRGENS </h3>
+                <div class="descricao"> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem in condimentum fermentum. Duis id nulla porta justo molestie auctor sed ac orci. Mauris sed dignissim quam. In fringilla ligula vel egestas cursus. Fusce in sapien eu velit eleifend varius. Aliquam sagittis rhoncus augue, nec pellentesque sem. Nunc ut vestibulum nibh, in elementum eros. </p> </div>
+            </div>
+
+            <div class="col-4 col-t-4">
+                <img src="imgs/3.png" alt="perfil3"/>
+                <h3> LIROU GLEYÇON </h3>
+                <div class="descricao"> <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam tristique sem in condimentum fermentum. Duis id nulla porta justo molestie auctor sed ac orci. Mauris sed dignissim quam. In fringilla ligula vel egestas cursus. Fusce in sapien eu velit eleifend varius. Aliquam sagittis rhoncus augue, nec pellentesque sem. Nunc ut vestibulum nibh, in elementum eros. </p> </div>
+            </div>
+        </div> <!-- fecha equipe -->
+
+        <div class="row github" id="git">
+            <div class="col-12">
+                <h3> Github </h3>
+                <img src="imgs/github.png" alt="Github Logo"/>
+                <div class="gitDescriçao">
+                    <p> Caso queria consultar o código fonte deste site, clique <a target="_blank" href="http://goo.gl/bxkqsW">aqui</a>.
+                    </p>
+                </div>                
+            </div>
+        </div> <!-- fecha github -->
+
+        <div class="row about" id="about">
+                <div class="col-12">
+                    <h1> Quem somos nós? </h1>
+                    <div class="texto"><p> Graduandos em Licenciatura em Ciências da Computação, da turma 2017.1, fizemos este site com intuito de mostrar o funcionamento básico de um sistema.</p>
+                </div>                
+            </div>
+        </div> <!-- fecha about -->
+
+        <div class="topo">
+            <button type="submit"><a class="scroll" href="#cabeçalho">VOLTAR AO TOPO!</a></button>
         </div>
 
-        <script src="js/crud.js" charset="utf-8"></script>
-        <link rel="stylesheet" href="css/index.css">
+        <footer>
+            <p> © Ranoob - 2018 </p>
+        </footer>
 
+        <script src="js/jquery.min.js"></script>
+        <script src="js/crud.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="js/scroll.js"></script>
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/equipe.css">
+        <link rel="stylesheet" href="css/github.css">
+        <link rel="stylesheet" href="css/sobre.css">
+        <link rel="stylesheet" href="css/responsividade.css">
     </body>
 </html>

@@ -1,0 +1,33 @@
+.equipe { background-color: #555; height: auto; }
+
+.equipe img {
+    min-width: 200px;
+    height: 150px;
+    margin-left: 100px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+@font-face {
+    font-family: 'AGENCYR';
+    src: url('fonts/AGENCYR.ttf');    
+    font-weight: normal;
+    font-style: normal;
+}
+
+.descricao {
+    text-align: justify;
+    color: white;
+    text-indent: 50px;
+    font-family: 'AGENCYR';     
+}
+
+.equipe h3 { 
+    color: white;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #6b9;
+    padding: 5px;
+    border-radius: 30px;
+}

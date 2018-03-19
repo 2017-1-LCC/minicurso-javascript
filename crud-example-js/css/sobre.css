@@ -1,0 +1,9 @@
+.about p { text-align: center; }
+
+.about h1 { text-align: center; }
+
+.about {
+    border-left: 1em solid #33cc8a;
+    background-color: #434444db;
+    color: white;
+}
