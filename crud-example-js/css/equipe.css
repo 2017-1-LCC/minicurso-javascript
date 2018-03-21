@@ -3,7 +3,7 @@
 .equipe img {
     min-width: 200px;
     height: 150px;
-    margin-left: 100px;
+    float: left;
     padding: 5px;
     border-radius: 50%;
 }
@@ -19,15 +19,15 @@
     text-align: justify;
     color: white;
     text-indent: 50px;
-    font-family: 'AGENCYR';     
+    font-family: 'AGENCYR';
+    float: left;     
 }
 
 .equipe h3 { 
-    color: white;
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    border: 1px solid #6b9;
-    padding: 5px;
-    border-radius: 30px;
+    color: #58b582;
+    float: left;
+    margin-top: 2.5em;
+    margin-left: 0.8em;
+    text-align: center;    
+    padding: 5px;    
 }

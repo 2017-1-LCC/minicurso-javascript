@@ -32,26 +32,68 @@ body {
     background-color: #333;
     overflow: hidden;
     border-radius: 20px;
-    width: 98%;
+    width: 90%;
     margin: auto;
     margin-top: 15px;    
 }
 
-.menu a:nth-child(4) { float: right; }
+.menu a:nth-child(4) { float: left; }
 
 .menu .icon { display: none; }
 
-    .menu a {
-        float: left;
-        display: block;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        text-shadow: 2px 2px 3px #0a0a0a;
-        padding: 14px 16px;
+.menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px #0a0a0a;
+    padding: 14px 16px;
+}
+
+    .menu a:hover { color: #7cb554; }
+
+.menuresponsivo a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    float: left;
+    clear: both;
+}
+
+    .menuresponsivo a.icon {
+        float: right;        
+        margin-top: -9.6em;                
     }
 
-        .menu a:hover { color: #7cb554; }
+    .menuresponsivo a:hover:not(:last-child) {
+        background-color: #7cb554;
+        width: 100%;
+    }
+
+@media screen and (max-width: 600px) {
+    .menu a:not(:nth-child(4)) { display: none; }
+
+    .menu a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .menu.responsivo { position: relative; }
+    .menu.responsivo .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .menu.responsivo a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
 
 .row::after {
     content: "";
@@ -59,19 +101,14 @@ body {
     display: table;
 }
 
-.row { border-bottom: 1px solid black; }
+.row { border-bottom: 1px solid #7f7f7f; }
 
 .home, .equipe {
     min-height: 500px;
     padding: 10px;
 }
 
-.inputs {
-    margin-left: 25%;
-}
-
 table {
-    margin: auto;
     text-align: center;
     border-collapse: collapse;    
     color: #f4f5ef;
@@ -94,21 +131,16 @@ table {
     padding: 10px;    
 }
 
-footer {
-    text-align: center;
-    margin-top: 30%;
-    background: #333;
-    color: #eee;
-    padding: 10px;  
-}
-
 input {
     border-radius: 10px;
+    width: 90%;
     padding: 10px;
     outline: none;
     height: 3em;
     margin-top: 10px;   
 }
+
+.inputs { margin-left: 10%; }
 
 .botao, .botaoJS {      
     background: transparent;
@@ -117,10 +149,7 @@ input {
     transition: 300ms;   
 }
 
-#btnEnviar {
-    float: right;
-    margin-right: 34%;
-}
+#btnEnviar { margin-right: 5.5em; }
 
     #btnEnviar img {
        height: 3em;
@@ -135,20 +164,16 @@ input {
     width: 40%;    
 }
 
-#btnAlterar, #btnCancelar {
-    float: right;
-    margin-top: 11px;      
-}
+#btnAlterar, #btnCancelar { float: left; }
 
-#btnAlterar { margin-right: 25%; }
+#btnAlterar { margin: 5% 25%; }
+#btnCancelar { margin: 5% -35%; }
 
-.inputs { margin-left: 25%; }
-
-.botaoJS img { width: 20px; transition: 300ms; }
+.botaoJS img { width: 1.5em; transition: 300ms; }
 
 .topo {
-    margin: 3em;
-    margin-left: 45%;
+    margin-top: 5em;
+    margin-left: 31%;
 }
 
 .topo button {
@@ -162,3 +187,17 @@ input {
     background: #333;
     color: whitesmoke;
 }
+
+    .topo a:hover { background-color: #444; font-weight: bold; }
+
+footer {
+    text-align: center;
+    margin-top: 30%;
+    background: #333;
+    color: #eee;
+    padding: 10px;  
+}
+
+footer a { text-decoration: none; }
+
+    footer a:hover { color: #79f; }
