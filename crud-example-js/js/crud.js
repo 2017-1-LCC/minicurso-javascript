@@ -100,5 +100,5 @@ function cancelar() {
 
     document.getElementById("btnAlterar").style.display = "none";    
     document.getElementById("btnCancelar").style.display = "none";    
-    document.getElementById("btnEnviar").style.display = "block";
+    document.getElementById("btnEnviar").style.display = "block";    
 }

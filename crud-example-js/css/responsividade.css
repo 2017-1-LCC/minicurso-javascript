@@ -50,15 +50,14 @@
         margin-right: 19%;
     }
 
-    #btnCancelar, #btn { 
-        margin-right: 16em;
-        margin-top: -2.5em;                
+    #btnCancelar, #btnAlterar { 
+        float: right;
+        margin-top: -2.5em;                        
     }
 
-    #btnAlterar {
-        margin-top: -2.5em;
-        margin-right: 12em;
-    }
+    #btnCancelar { margin-right: 1.5%; }
+
+    #btnAlterar { margin-right: 10%; }
 
     input { width: 25%; }
 
@@ -66,7 +65,7 @@
 
     .tabela {
         margin: auto;
-        margin-left: 21%;
+        margin-left: 18.5%;
     }
 
     table { width: 75%;}
