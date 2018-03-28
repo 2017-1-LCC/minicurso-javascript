@@ -99,6 +99,6 @@ function cancelar() {
     clearValuesForm();
 
     document.getElementById("btnAlterar").style.display = "none";    
-    document.getElementById("btnCancelar").style.display = "none";    
+    document.getElementById("btnCancelar").style.display = "none";       
     document.getElementById("btnEnviar").style.display = "block";    
 }

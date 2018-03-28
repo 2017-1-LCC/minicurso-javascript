@@ -1,21 +1,26 @@
-@media screen and (min-width: 550px) {
-    .header { width: 100%; }
+@media screen and (min-width: 360px) {
+    #btnAlterar { margin: 1.5px 0 0 60px; }
+    #btnCancelar { margin-left: 18%; }
 
-    .menu a:nth-child(4) { float: right; }
+    table { margin-left: 2%; }
+
+    .equipe img { margin-left: 17%; }
+
+    .github img { margin-left: 36%; }
+
+    .topo { margin-left: 28%; }
+}
+
+
+@media screen and (min-width: 550px) {
+    .menu a:nth-child(4) { float: left; }
 
     .menu, .menuresponsivo { width: 90%; }    
 
-    #btnEnviar { float: left; margin-top: 15px; }
+    #btnEnviar { margin-left: 45%; }
 
-    #btnCancelar {        
-        margin-top: 20px;
-        margin-left: -12em;            
-    }
-
-    #btnAlterar {
-        margin-top: 20px;
-        margin-left: -3%;
-    } 
+    #btnAlterar { margin-left: 8em; }
+    #btnCancelar { margin-left: 12em; }
 
     .inputs { margin-left: -0.5%; }
 
@@ -23,66 +28,118 @@
 
     table { width: 95%; margin-left: 3%;}       
 
-    .equipe img { margin-left: 20%;}
-
-    .equipe h3 { margin: auto; padding-top: 20px; }
-
-    h3.raniel { margin-left: 38%; }
-
-    h3.eliel { margin-left: 33%; }
-
-    h3.gleicinho { margin-top: 7%; padding-left: 20px; }
-
+    .equipe img { margin-left: 30%;}
+    
     .equipe p, .github p { margin-left: 10px; }
 
-    .github img { margin-left: 42.5%; }    
+    .github img { margin-left: 41%; }    
 
-    .topo { margin-left: 35%; }
+    .topo { margin-left: 37%; }
 }
 
+@media screen and (min-width: 600px) { .menu a:nth-child(4) { float: right; } }
+
 /* Desktop */
-@media screen and (min-width: 762px) {
+@media screen and (min-width: 768px) {   
     .menu { width: 98%; }
     
-    #btnEnviar {
-        float: right;
-        margin-top: -3px;
-        margin-right: 19%;
-    }
+    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
 
-    #btnCancelar, #btnAlterar { 
-        float: right;
-        margin-top: -2.5em;                        
-    }
+    #btnEnviar { margin-top: 8.3em; }
 
-    #btnCancelar { margin-right: 1.5%; }
+    #btnAlterar,
+    #btnCancelar {  margin-top: 8.8em; }
 
-    #btnAlterar { margin-right: 10%; }
+    input { width: 100%; }
 
-    input { width: 25%; }
+    .inputs { margin-left: 5%; }
 
-    .inputs { margin-left: 20%; }
+    .tabela { margin-left: 1%; }
 
-    .tabela {
-        margin: auto;
-        margin-left: 18.5%;
-    }
+    table { width: 95%; }
 
-    table { width: 75%;}
+    .equipe img { margin: 0; margin-left: 36%; }
 
-    .equipe img { margin-left: 22%;}    
+    .equipe p, .github p { padding: 10px; }
 
-    h3.raniel { margin-left: 35%; margin-top: -1px; }
+    .github img { margin-left: 43%; }    
 
-    h3.eliel { margin-left: 30%; margin-top: -3px; }
+    .topo { margin-left: 42%; margin-bottom: -20%; }
+}
 
-    h3.gleicinho { margin-left: 30%; margin-top: -6px;}
+@media screen and (min-width: 900px) {
+    .menu { width: 98%; }
+    
+    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
 
-    .equipe p, .github p { margin-left: 10px; }
+    #btnEnviar { margin-top: 8.3em; }
 
-    .github img { margin-left: 46.3%; }    
+    #btnAlterar,
+    #btnCancelar {  margin-top: 8.8em; }
 
-    .topo { margin-left: 44%; margin-bottom: -20%; }
+    input { width: 100%; }
+
+    .inputs { margin-left: 4%; }    
+
+    table { width: 95%;}
+
+    .equipe img { margin: 0; margin-left: 38%; }
+
+    .equipe p, .github p { padding: 10px; }
+
+    .github img { margin-left: 44.5%; }    
+
+    .topo { margin-left: 42%; margin-bottom: -20%; }
+}
+
+@media screen and (min-width: 1100px) {
+    .menu { width: 98%; }
+    
+    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
+
+    #btnEnviar { margin-top: 8.3em; }
+
+    #btnAlterar,
+    #btnCancelar {  margin-top: 8.8em; }
+
+    input { width: 100%; }
+
+    .inputs { margin-left: 4%; }    
+
+    table { width: 95%;}
+
+    .equipe img { margin: 0; margin-left: 40%; }
+
+    .equipe p, .github p { padding: 10px; }
+
+    .github img { margin-left: 45.5%; }    
+
+    .topo { margin-left: 43%; margin-bottom: -20%; }
+}
+
+@media screen and (min-width: 1300px) {
+    .menu { width: 98%; }
+    
+    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
+
+    #btnEnviar { margin-top: 8.3em; }
+
+    #btnAlterar,
+    #btnCancelar {  margin-top: 8.8em; }
+
+    input { width: 100%; }
+
+    .inputs { margin-left: 4%; }    
+
+    table { width: 95%;}
+
+    .equipe img { margin: 0; margin-left: 42.5%; }
+
+    .equipe p, .github p { padding: 10px; }
+
+    .github img { margin-left: 46.5%; }    
+
+    .topo { margin-left: 45%; margin-bottom: -20%; }
 }
 
 
@@ -90,7 +147,7 @@
 [class^="col-"] { width: 100%; }
 
 /* Tablets */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 550px) {
     .col-t-1 { width: 8.33%; }
     .col-t-2 { width: 16.66%; }
     .col-t-3 { width: 25%; }
@@ -107,16 +164,16 @@
 
  /* Desktops */
 @media only screen and (min-width: 768px) {
-    .col-1 { width: 8.33%; }
-    .col-2 { width: 16.66%; }
-    .col-3 { width: 25%; }
-    .col-4 { width: 33.33%; }
-    .col-5 { width: 41.66%; }
-    .col-6 { width: 50%; }
-    .col-7 { width: 58.33%; }
-    .col-8 { width: 66.66%; }
-    .col-9 { width: 75%; }
-    .col-10 { width: 83.33%; }
-    .col-11 { width: 91.66%; }
-    .col-12 { width: 100%; }
+    .col-d-1 { width: 8.33%; }
+    .col-d-2 { width: 16.66%; }
+    .col-d-3 { width: 25%; }
+    .col-d-4 { width: 33.33%; }
+    .col-d-5 { width: 41.66%; }
+    .col-d-6 { width: 50%; }
+    .col-d-7 { width: 58.33%; }
+    .col-d-8 { width: 66.66%; }
+    .col-d-9 { width: 75%; }
+    .col-d-10 { width: 83.33%; }
+    .col-d-11 { width: 91.66%; }
+    .col-d-12 { width: 100%; }
 }

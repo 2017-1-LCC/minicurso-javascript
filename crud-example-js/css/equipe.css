@@ -1,33 +1,30 @@
-.equipe { background-color: #555; height: auto; }
+.equipe { background-color: #333; height: auto; }
 
 .equipe img {
     min-width: 200px;
-    height: 150px;
-    float: left;
-    padding: 5px;
+    height: 150px;    
     border-radius: 50%;
 }
 
 @font-face {
-    font-family: 'AGENCYR';
-    src: url('fonts/AGENCYR.ttf');    
+    font-family: 'TwCen';
+    src: url('fonts/TwCen.ttf');    
     font-weight: normal;
     font-style: normal;
 }
 
 .descricao {
     text-align: justify;
-    color: white;
-    text-indent: 50px;
-    font-family: 'AGENCYR';
-    float: left;     
+    color: #F5F5F5;
+    text-indent: 40px;
+    font-family: 'TwCen';         
 }
 
-.equipe h3 { 
+.equipe h3 {
     color: #58b582;
-    float: left;
-    margin-top: 2.5em;
-    margin-left: 0.8em;
-    text-align: center;    
-    padding: 5px;    
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: -5px;  
 }
+
+.foto { margin-left: 12%; }

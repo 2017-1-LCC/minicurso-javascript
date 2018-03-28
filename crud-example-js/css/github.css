@@ -1,11 +1,12 @@
 .github h3 {
     text-align: center;
     font-size: 3em;
+    padding: 15px;
 }
 
 .github img {    
     height: 100px;
-    margin-left: 37%;
+    margin-left: 33%;
 }
 
 .gitDescriçao p {
@@ -20,4 +21,4 @@
     transition: 200ms;
 }
 
-    .gitDescriçao a:hover { color: #4a71b7; }
+    .gitDescriçao a:hover { color: #56C; }
