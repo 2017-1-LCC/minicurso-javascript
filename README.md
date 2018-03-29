@@ -24,7 +24,7 @@
 
 ## OFF TOPIC
 
-*Javascript.
+* Javascript.
   * Uso de Frameworks durante o curso.
   * O quanto é bom entender do contexto histórico da computação.
   * Criando Objetos em javascript.
