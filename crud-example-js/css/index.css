@@ -15,8 +15,7 @@ body {
 
 .header { 
     text-align: center;        
-    color: black;
-    margin: 0;
+    color: black;    
     padding: 15px;
     background: white;
     border-bottom: 2px solid #7b5;  
@@ -114,17 +113,17 @@ table {
     margin-left: -1%;
 }
 
-    table th:not(:first-child) { width: 17%; }
+    table th:not(:first-child) { width: 17%; }   
 
     table tr:nth-child(even) { background-color: #616161; }
     table tr:nth-child(odd) { background-color: #757575; }
+
+.tabela th { background-color: #5C6BC0; }
 
 .tabela td, th { 
     padding: 5px;
     border: 1px solid black;
 }
-
-.tabela th { background-color: #5C6BC0; }
 
 [class^="col-"] {
     float: left;
@@ -151,17 +150,12 @@ input {
 
 .botao { margin-left: 30%; }
 
-#btnEnviar img {
-   height: 3em;          
-   transition: 350ms;
-}
+#btnEnviar img { height: 3em; transition: 350ms; }
 
     .botao:hover, .botaoJS:hover { transform: scale(1.1); }
 
-#btnAlterar img, #btnCancelar img {
-    height: auto;
-    width: 40%;    
-}
+#btnAlterar img,
+#btnCancelar img { height: auto; width: 40%; }
 
 #btnAlterar, 
 #btnCancelar { float: left; margin: 0; }
@@ -171,15 +165,9 @@ input {
 
 .botaoJS img { width: 1.5em; transition: 300ms; }
 
-.topo {
-    margin-top: 5em;
-    margin-left: 25%;
-}
+.topo { margin-top: 5em; margin-left: 25%; }
 
-.topo button {
-    background-color: transparent;
-    border: none;
-}
+.topo button { background-color: transparent; border: none; }
 
 .topo a {
     text-decoration: none;

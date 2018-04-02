@@ -68,21 +68,6 @@
 }
 
 @media screen and (min-width: 900px) {
-    .menu { width: 98%; }
-    
-    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
-
-    #btnEnviar { margin-top: 8.3em; }
-
-    #btnAlterar,
-    #btnCancelar {  margin-top: 8.8em; }
-
-    input { width: 100%; }
-
-    .inputs { margin-left: 4%; }    
-
-    table { width: 95%;}
-
     .equipe img { margin: 0; margin-left: 38%; }
 
     .equipe p, .github p { padding: 10px; }
@@ -93,21 +78,6 @@
 }
 
 @media screen and (min-width: 1100px) {
-    .menu { width: 98%; }
-    
-    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
-
-    #btnEnviar { margin-top: 8.3em; }
-
-    #btnAlterar,
-    #btnCancelar {  margin-top: 8.8em; }
-
-    input { width: 100%; }
-
-    .inputs { margin-left: 4%; }    
-
-    table { width: 95%;}
-
     .equipe img { margin: 0; margin-left: 40%; }
 
     .equipe p, .github p { padding: 10px; }
@@ -118,21 +88,6 @@
 }
 
 @media screen and (min-width: 1300px) {
-    .menu { width: 98%; }
-    
-    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
-
-    #btnEnviar { margin-top: 8.3em; }
-
-    #btnAlterar,
-    #btnCancelar {  margin-top: 8.8em; }
-
-    input { width: 100%; }
-
-    .inputs { margin-left: 4%; }    
-
-    table { width: 95%;}
-
     .equipe img { margin: 0; margin-left: 42.5%; }
 
     .equipe p, .github p { padding: 10px; }
