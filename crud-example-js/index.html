@@ -25,7 +25,7 @@
         <div class="row home">
             <!-- form -->            
                 <form id="formulario" class="inputs">
-                    <div class="col-9 col-d-9">
+                    <div class="col-9 col-t-9 col-d-9">
                         <input type="text" id="nomeAluno" placeholder="Nome do aluno">
                         <input type="text" id="idadeAluno" placeholder="Idade">
                         <input type="text" id="matriculaAluno" placeholder="Numero de matricula">
@@ -40,6 +40,11 @@
                         <button type="button" onClick="atualizar()" id="btnAlterar" class="botao">
                             <img src="icons/ok.png" title="Confirmar">
                         </button>
+
+                    <div class="col-3 col-t-3 col-d-3">
+                        <button type="submit" id="btnEnviar" class="botao"><img src="icons/enviar.png" title="Enviar"></button>
+                        <button type="button" onClick="cancelar()" id="btnCancelar" class="botao"><img src="icons/cancel.png" title="Cancelar"></button>
+                        <button type="button" onClick="atualizar()" id="btnAlterar" class="botao"><img src="icons/ok.png" title="Confirmar"></button>
                     </div>
                 </form>
 
@@ -53,12 +58,12 @@
         
         <div class="row equipe" id="team">
 
-            <div class="col-4">
+            <div class="col-4 col-t-12 col-d-4">
                 <div class="row raniel">
 
                     <div class="col-4"><img class="foto" src="imgs/1.jpg" alt="foto raniel"/></div>                
 
-                    <div class="col-4"><h3>RANOOB</h3></div>                    
+                    <div class="col-4"><h3>RANOOB</h3></div>               
 
                     <div class="col-4 descricao">
                         <p>Graduando do IFBA no curso de Licenciatura em Ciências da Computação. 22. 
@@ -68,7 +73,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-4 col-t-12 col-d-4">
 
                 <div class="row eliel">                        
                     <div class="col-4"><img class="foto" src="imgs/2.png" alt="foto eliel"/></div>
@@ -84,7 +89,7 @@
                 </div>
             </div>                    
 
-            <div class="col-4">
+            <div class="col-4 col-t-12 col-d-4">
                 <div class="row gleicinho">
                     
                     <div class="col-4"><img class="foto" src="imgs/3.png" alt="foto gleicinho"/></div>

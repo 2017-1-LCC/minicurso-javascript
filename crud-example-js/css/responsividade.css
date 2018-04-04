@@ -11,6 +11,20 @@
     .topo { margin-left: 28%; }
 }
 
+@media screen and (min-width: 400px) {
+    #btnEnviar { margin-left: 35%; }
+    #btnAlterar { margin: 1.5px 0 0 60px; }
+    #btnCancelar { margin-left: 21%; }
+
+    table { margin-left: 2%; }
+
+    .equipe img { margin-left: 21%; }
+
+    .github img { margin-left: 37%; }
+
+    .topo { margin-left: 31%; }
+}
+
 
 @media screen and (min-width: 550px) {
     .menu a:nth-child(4) { float: left; }
@@ -39,7 +53,9 @@
 
 @media screen and (min-width: 600px) { .menu a:nth-child(4) { float: right; } }
 
-/* Desktop */
+
+
+/* Telas maiores */
 @media screen and (min-width: 768px) {   
     .menu { width: 98%; }
     
@@ -68,7 +84,7 @@
 }
 
 @media screen and (min-width: 900px) {
-    .equipe img { margin: 0; margin-left: 38%; }
+    .equipe img { margin: 0; margin-left: 11%; }
 
     .equipe p, .github p { padding: 10px; }
 
@@ -78,7 +94,7 @@
 }
 
 @media screen and (min-width: 1100px) {
-    .equipe img { margin: 0; margin-left: 40%; }
+    .equipe img { margin: 0; margin-left: 17%; }
 
     .equipe p, .github p { padding: 10px; }
 
@@ -88,7 +104,7 @@
 }
 
 @media screen and (min-width: 1300px) {
-    .equipe img { margin: 0; margin-left: 42.5%; }
+    .equipe img { margin: 0; margin-left: 26%; }
 
     .equipe p, .github p { padding: 10px; }
 
@@ -118,7 +134,7 @@
 }
 
  /* Desktops */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 900px) {
     .col-d-1 { width: 8.33%; }
     .col-d-2 { width: 16.66%; }
     .col-d-3 { width: 25%; }
