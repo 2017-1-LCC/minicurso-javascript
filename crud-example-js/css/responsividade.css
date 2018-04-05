@@ -29,12 +29,10 @@
 @media screen and (min-width: 550px) {
     .menu a:nth-child(4) { float: left; }
 
-    .menu, .menuresponsivo { width: 90%; }    
+    #btnEnviar { margin-top: 8.3em; margin-left: -5%; }    
 
-    #btnEnviar { margin-left: 45%; }
-
-    #btnAlterar { margin-left: 8em; }
-    #btnCancelar { margin-left: 12em; }
+    #btnAlterar { margin-left: 2em; margin-top: 8.7em; }
+    #btnCancelar { margin-left: -1.8em; margin-top: 8.7em; }
 
     .inputs { margin-left: -0.5%; }
 
@@ -56,9 +54,7 @@
 
 
 /* Telas maiores */
-@media screen and (min-width: 768px) {   
-    .menu { width: 98%; }
-    
+@media screen and (min-width: 768px) {
     #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
 
     #btnEnviar { margin-top: 8.3em; }
@@ -88,7 +84,7 @@
 
     .equipe p, .github p { padding: 10px; }
 
-    .github img { margin-left: 44.5%; }    
+    .github img { margin-left: 44%; }    
 
     .topo { margin-left: 42%; margin-bottom: -20%; }
 }
@@ -98,7 +94,7 @@
 
     .equipe p, .github p { padding: 10px; }
 
-    .github img { margin-left: 45.5%; }    
+    .github img { margin-left: 45%; }    
 
     .topo { margin-left: 43%; margin-bottom: -20%; }
 }
@@ -108,7 +104,7 @@
 
     .equipe p, .github p { padding: 10px; }
 
-    .github img { margin-left: 46.5%; }    
+    .github img { margin-left: 46%; }    
 
     .topo { margin-left: 45%; margin-bottom: -20%; }
 }
