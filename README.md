@@ -31,7 +31,7 @@ Atividades a serem desenvolvidas:
 
 
 Resultados esperados dos participantes:
-Que saiam do minicurso, entendendo um pouco da história da web, da guerra dos browsers, tags do html, declaração de variável em javascript, básico de função, arrays e objeto, o basico sobre document.getElementById() e como gerar html com javascript.
+Que saiam do minicurso, entendendo um pouco da história da web, da guerra dos browsers, tags do html, declaração de variável em javascript, básico de função, arrays e objeto, o basico sobre document.getElementById() e como gerar html com javascript. Também saber o quão importante é fazer um site responsivo.
 
 
 
@@ -61,7 +61,11 @@ Referências:
   * Construindo um CRUD com HTML, CSS e JAVASCRIPT.
   
 * CSS.
-  *
+  * Introdução
+  * Classes
+  * Propriedades  
+  * Sistema de grid
+  * Responsividade
 
 ## OFF TOPIC
 
