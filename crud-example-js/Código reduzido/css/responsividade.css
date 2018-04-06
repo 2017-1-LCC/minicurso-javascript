@@ -1,0 +1,84 @@
+@media screen and (min-width: 360px) {
+    #btnAlterar { margin: 1.5px 0 0 60px; }
+    #btnCancelar { margin-left: 18%; }
+}
+
+@media screen and (min-width: 400px) {
+    #btnEnviar { margin-left: 35%; }
+    #btnAlterar { margin: 1.5px 0 0 60px; }
+    #btnCancelar { margin-left: 21%; }
+
+    table { margin-left: 2%; }
+}
+
+
+@media screen and (min-width: 550px) {
+    .menu a:nth-child(4) { float: left; }
+
+    #btnEnviar { margin-top: 8.3em; margin-left: -5%; }    
+
+    #btnAlterar { margin-left: 2em; margin-top: 8.7em; }
+    #btnCancelar { margin-left: -1.8em; margin-top: 8.7em; }
+
+    .inputs { margin-left: -0.5%; }
+
+    input { width: 100%; }
+
+    table { width: 95%; margin-left: 3%;}
+}
+
+@media screen and (min-width: 600px) { .menu a:nth-child(4) { float: right; } }
+
+
+/* Telas maiores */
+@media screen and (min-width: 768px) {
+    #btnEnviar, #btnAlterar, #btnCancelar { margin: 0; }
+
+    #btnEnviar { margin-top: 8.3em; }
+
+    #btnAlterar,
+    #btnCancelar {  margin-top: 8.8em; }
+
+    input { width: 100%; }
+
+    .inputs { margin-left: 5%; }
+
+    .tabela { margin-left: 1%; }
+
+    table { width: 95%; }
+}
+
+/* Celulares */
+[class^="col-"] { width: 100%; }
+
+/* Tablets */
+@media only screen and (min-width: 550px) {
+    .col-t-1 { width: 8.33%; }
+    .col-t-2 { width: 16.66%; }
+    .col-t-3 { width: 25%; }
+    .col-t-4 { width: 33.33%; }
+    .col-t-5 { width: 41.66%; }
+    .col-t-6 { width: 50%; }
+    .col-t-7 { width: 58.33%; }
+    .col-t-8 { width: 66.66%; }
+    .col-t-9 { width: 75%; }
+    .col-t-10 { width: 83.33%; }
+    .col-t-11 { width: 91.66%; }
+    .col-t-12 { width: 100%; }
+}
+
+ /* Desktops */
+@media only screen and (min-width: 900px) {
+    .col-d-1 { width: 8.33%; }
+    .col-d-2 { width: 16.66%; }
+    .col-d-3 { width: 25%; }
+    .col-d-4 { width: 33.33%; }
+    .col-d-5 { width: 41.66%; }
+    .col-d-6 { width: 50%; }
+    .col-d-7 { width: 58.33%; }
+    .col-d-8 { width: 66.66%; }
+    .col-d-9 { width: 75%; }
+    .col-d-10 { width: 83.33%; }
+    .col-d-11 { width: 91.66%; }
+    .col-d-12 { width: 100%; }
+}

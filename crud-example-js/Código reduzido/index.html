@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title> Registro de pessoas </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <div class="header" id="cabecalho">
+            <h1> Sistema para cadastro de alunos. </h1>
+            <img src="imgs/if.png" width="200" height="100"/>
+        </div>
+
+        <div class="menu" id="navbar">
+            <a href="#cabecalho"> Home </a>
+            <a href="#team"> Equipe </a>
+            <a href="#git"> Github </a>
+            <a href="#about"> Sobre </a>
+            <a href="javascript:void(0);" class="icon" onClick="adicionaClasse()">&#9776;</a>
+        </div>
+
+        <div class="row home">
+            <!-- form -->            
+                <form id="formulario" class="inputs">
+                    <div class="col-9 col-t-9 col-d-9">
+                        <input type="text" id="nomeAluno" placeholder="Nome do aluno">
+                        <input type="text" id="idadeAluno" placeholder="Idade">
+                        <input type="text" id="matriculaAluno" placeholder="Numero de matricula">
+                    </div>
+
+                    <div class="col-3 col-t-3 col-d-3">
+                        <button type="submit" id="btnEnviar" class="botao"><img src="icons/enviar.png" title="Enviar"></button>
+                        <button type="button" onClick="cancelar()" id="btnCancelar" class="botao"><img src="icons/cancel.png" title="Cancelar"></button>
+                        <button type="button" onClick="atualizar()" id="btnAlterar" class="botao"><img src="icons/ok.png" title="Confirmar"></button>
+                    </div>
+                </form>
+
+                <div class="row table">
+                    <!-- table -->
+                    <div class="col-12">         
+                        <div class="tabela" id="boxTable"></div>
+                    </div>                 
+                </div>
+        </div> <!-- fecha home -->
+        
+        <link rel="stylesheet" href="css/index.css">        
+        <link rel="stylesheet" href="css/responsividade.css">       
+        <script src="js/crud.js"></script>
+        <script src="js/menu.js"></script>        
+    </body>
+</html>
