@@ -60,6 +60,9 @@ TABLELESS. Entendendo Sistemas de Grid CSS do Zero. Disponível em: <https://tab
 
 OLHAR DIGITAL. História dos navegadores: do www ao Chrome. Disponível em: <https://olhardigital.com.br/noticia/historia-dos-navegadores-do-www-ao-chrome/7285>. Acesso em: 06 abr. 2018.
 
+FREEMAN, E; ROBSON, E. <b>Head First HTML with CSS & XHTML</b>. Califórnia: O'Reilly Media, 2009.
+
+HAVERBEKE, M. <b>Eloquent Javascript</b>: a modern introduction to programming. 2. ed. Califórnia: Creative Commons, 2014. 
 
 
 * HTML.
