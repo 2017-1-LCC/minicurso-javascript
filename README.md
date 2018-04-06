@@ -95,3 +95,7 @@ OLHAR DIGITAL. História dos navegadores: do www ao Chrome. Disponível em: <htt
   * Objeto document.
   * Método getElementById().
 
+
+
+
+### Clique [aqui](https://codepen.io/ranielcsar/pen/OvpxEE) caso queira ver o código no Codepen.
