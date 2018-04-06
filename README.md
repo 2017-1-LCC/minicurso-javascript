@@ -2,37 +2,36 @@
 
 ## Ementa do curso:
 
-Proponente(s):
+#### Proponente(s):
 
  - Eliel das Virgens
  - Gleydson Maciel
  - Raniel César
 
 
-Minicurrículo:
+#### Minicurrículo:
 
 Eliel - Aluno do IF Senhor do Bonfim e Webschool, entusiasta de programação.
 
 Raniel - Aluno do IFBA - Senhor do Bonfim. Graduando.
 
 
-Carga horária e período de realização:
+#### Carga horária e período de realização:
 70 Minutos
 
 
 
-Resumo:
+#### Resumo:
  * Este minicurso tem como intuito demonstrar como funciona um pequeno sistema web para cadastro de alunos. Usando HTML, CSS e Javascript, introduziremos uma pequena base de programação web, criando uma página estática, responsiva e com funções Javascript.
 
 
 
 
-Metodologia:
+#### Metodologia:
+  * Hands ON (mão na massa)
 
 
-
-
-Atividades a serem desenvolvidas:
+#### Atividades a serem desenvolvidas:
 
  * Estrutura HTML
  * CRUD (Create, Remove, Update e Delete) com Javascript
@@ -40,18 +39,18 @@ Atividades a serem desenvolvidas:
  * Responsividade
 
 
-Resultados esperados dos participantes:
+#### Resultados esperados dos participantes:
  * Que saiam do minicurso, entendendo um pouco da história da web, da guerra dos browsers, tags do html, declaração de variável em javascript, básico de função, arrays e objeto, o basico sobre document.getElementById() e como gerar html com javascript. Também saber o quão importante é fazer um site responsivo.
 
 
 
-Conhecimentos necessários para os participantes:
+#### Conhecimentos necessários para os participantes:
  * Conhecer o básico da programação que seria, declaração de variável, estruturas e controle e repetição, manipulação de vetor.
 
-Público-alvo:
+#### Público-alvo:
  * Alunos da turma de LCC 2017.1
 
-Referências:
+#### Referências:
 
 W3SCHOOLS. Responsive Web Design - Grid View. Disponível em: <https://www.w3schools.com/css/css_rwd_grid.asp>. Acesso em: 04 abr. 2018.
 
