@@ -9,6 +9,8 @@ Minicurrículo:
 
 Eliel - Aluno do IF Senhor do Bonfim e Webschool, entusiasta de programação.
 
+Raniel - Aluno do IFBA - Senhor do Bonfim. Graduando.
+
 
 Carga horária e período de realização:
 70 Minutos
