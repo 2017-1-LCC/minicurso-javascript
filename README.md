@@ -40,15 +40,15 @@ Raniel - Aluno do IFBA - Senhor do Bonfim. Graduando.
 
 
 #### Resultados esperados dos participantes:
- * Que saiam do minicurso entendendo um pouco da história da web, da guerra dos browsers, tags do html, declaração de variável em javascript, básico de função, arrays e objeto, o basico sobre document.getElementById() e como gerar html com javascript. Também saber o quão importante é fazer um site responsivo.
+ * Que, ao terminar do minicurso, entenda um pouco da história da web, da guerra dos browsers, tags do html, declaração de variáveis em javascript, básico de função, arrays e objeto, o basico sobre document.getElementById() e como gerar html com javascript. E também saber a importância que o design responsivo tem.
 
 
 
 #### Conhecimentos necessários para os participantes:
- * Conhececimento o básico em programação, que seria: declaração de variável, estruturas de controle e repetição e manipulação de vetor.
+ * Conhececimento básico em programação, que seria: declaração de variável, estruturas de controle e repetição e manipulação de vetor.
 
 #### Público-alvo:
- * Alunos da turma de LCC 2017.1
+ * Alunos da turma de LCC 2017.1.
 
 #### Referências:
 
